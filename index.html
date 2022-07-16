@@ -1,6 +1,8 @@
 <html>
     <head></head>
     <body>
+        
+
 <canvas id="gc"></canvas>
 <script>
 window.onload=function() {
@@ -15,6 +17,8 @@ ax=ay=15;
 xv=yv=0;
 trail=[];
 tail=5;
+canvas.width  = window.innerWidth;
+canvas.height = window.innerHeight;
 
 function game(){
     px+=xv;
